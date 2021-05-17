@@ -1,8 +1,9 @@
+subject = ""
+
 body = """
     <body>
         <div>
-            <h1>MailStone, LA solution blockchain</h1>
-            <p>blablablbalbalbalbalbalalabalbalbalablablabla<br>zjdhzjzhdjzdhzqjhzqjdk</p>
+            <p>Put your body here</p>
         </div>
         <div>
             <p class=MsoNormal>
@@ -34,4 +35,3 @@ body = """
     </body>
 """
 
-subject = "MailStone, la solution pour sécuriser vos email"
