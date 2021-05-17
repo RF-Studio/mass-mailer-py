@@ -24,7 +24,7 @@ with open('mail_list.txt', 'r') as f:
 f.close()
 
 # Setting up mail server
-server = smtplib.SMTP('smtp.gmail.com', 587)
+server = smtplib.SMTP(config.smpt_addr, config.smpt_port)
 server.starttls()
 server.login(sender_addr, sender_pass)
 
