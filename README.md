@@ -16,16 +16,17 @@ To update the destination email list you should complete the file ```mail_list.t
 <br>/!\ ONLY ONE ADDRESSE PER LINE /!\
 
 ## Creating you mail
-Edit the file ```mail.py```
-Here you can change the **subject** of your email and the **body**
+
 ### Subject
+Edit the file ```mail.py```
+Here you can change the **subject** of your email
 Put the string of your choise e.g. : 
 ```python 
 subject="Join Us for Free!"
 ```
 
 ### Body
-You can personalize as you wish the body of your email. You could for example add an html signature. To do so, you have to edit the ```body``` variable. The body **must be** an html content.
+You can personalize as you wish the body of your email. You could for example add an html signature. To do so, you have to edit the ```mail.html``` file. The body **must be** an html content.
 e.g.:
 ```html
 <body>

@@ -24,9 +24,14 @@ with open('mail_list.txt', 'r') as f:
 f.close()
 
 # Setting up mail server
+print('Configuring SMTP server...\n\tAddress: ' + config.smpt_addr + '\tPort: ' + str(config.smpt_port))
 server = smtplib.SMTP(config.smpt_addr, config.smpt_port)
+print('SMTP server up')
 server.starttls()
+print('TLS started successfully')
 server.login(sender_addr, sender_pass)
+print('Login Successfull!')
+
 
 # Setting up email
 message = MIMEMultipart()
